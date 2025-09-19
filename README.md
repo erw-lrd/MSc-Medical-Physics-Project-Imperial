@@ -7,7 +7,7 @@ Super-resolution reconstruction algorithm for MRI based on COMBINE with an examp
 * 'image_282_data': example 2D dataset from a spherical phantom on a 3T Siemens Magnetom Verio (MATLAB .mat file)
 
 ## Example data
-The sequence parameters were as follows: TR/TE=10/5ms; N<sub>PE</sub> x N<sub>FE</sub> = 50x248; FOV = 250x250mm<sup>2</sup>; slice thickness = 10mm; α=0.4°; 1000 dummy TRs (10s of steady-state preparation); 5 separate images at equidistant phase increments (i.e. 0°,72°,144°,...), with the unbalanced gradient along the PE direction.
+The sequence parameters were as follows: TR/TE=10/5ms; N<sub>PE</sub> x N<sub>FE</sub> = 50x248; FOV = 250x250mm<sup>2</sup>; slice thickness = 10mm; α=1.5°; 1000 dummy TRs (10s of steady-state preparation); 5 separate images at equidistant phase increments (i.e. 0°,72°,144°,...), with the unbalanced gradient along the PE direction.
 
 ## Acknowledgements
 The ifft2c and fft2c functions were written by Michael Lustig for ESPIRiT. All use and distribution rights are as described in the original code.
